@@ -20,7 +20,6 @@
         <module>zhisuan-flow</module>
         <module>zhisuan-flow-design</module>
         <module>zhisuan-log</module>
-        <module>zhisuan-report</module>
         <module>zhisuan-resource</module>
         <module>zhisuan-swagger</module>
         <module>zhisuan-turbine</module>

@@ -37,10 +37,9 @@
         <module>zhisuan-gateway</module>
         <module>zhisuan-ops</module>
         <module>zhisuan-ops-api</module>
-        <module>zhisuan-plugin</module>
-        <module>zhisuan-plugin-api</module>
         <module>zhisuan-service</module>
         <module>zhisuan-service-api</module>
+        <module>wanwan-demo</module>
     </modules>
 
     <dependencyManagement>
