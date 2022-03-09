@@ -24,6 +24,10 @@
         <module>20220119-redisson-example</module>
         <module>20210628-rabbitMQ-example</module>
         <module>20210721-quartz-example</module>
+        <module>wanwan-unitest</module>
+        <module>20220301-algorithms-collection</module>
+        <module>20210924-auth2-parent</module>
+        <module>20210729-httpclient-exampel</module>
     </modules>
 
     <properties>
