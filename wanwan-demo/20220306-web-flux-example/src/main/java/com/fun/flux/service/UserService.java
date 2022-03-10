@@ -1,4 +1,4 @@
-package com.fun.flux;
+package com.fun.flux.service;
 
 import com.fun.flux.entity.UserVO;
 import org.springframework.stereotype.Component;

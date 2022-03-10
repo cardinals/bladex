@@ -1,6 +1,6 @@
 package com.fun.flux.config;
 
-import com.fun.flux.UserService;
+import com.fun.flux.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.util.StringUtils;

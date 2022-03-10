@@ -1,6 +1,6 @@
 package com.fun.flux.controller;
 
-import com.fun.flux.UserService;
+import com.fun.flux.service.UserService;
 import com.fun.flux.entity.UserVO;
 import lombok.RequiredArgsConstructor;
 import org.reactivestreams.Publisher;
