@@ -1,3 +1,4 @@
+import com.google.common.base.CharMatcher;
 import org.junit.Test;
 
 /**
@@ -7,6 +8,6 @@ public class MyTest {
 
 	@Test
 	public void test1() {
-
+		boolean isText = !CharMatcher.anyOf("x×*").matchesAnyOf("2个字-100x10px");
 	}
 }
