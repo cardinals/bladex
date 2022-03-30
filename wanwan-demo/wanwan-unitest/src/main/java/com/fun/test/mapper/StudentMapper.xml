@@ -14,7 +14,17 @@
 
     <select id="selectStudentPage" resultMap="studentMap">
         SELECT *
-        FROM student ${ew.customSqlSegment}
+        FROM student
+        WHERE 1=1
+        <if test="student.name != '' and student.name != null">
+            AND name = #{student.name}
+        </if>
+        <if test="student.id != '' and student.id != null">
+            AND id = #{student.id}
+        </if>
+        <if test="student.createTime != '' and student.createTime != null">
+            AND create_time = #{student.createTime}
+        </if>
     </select>
 
 </mapper>

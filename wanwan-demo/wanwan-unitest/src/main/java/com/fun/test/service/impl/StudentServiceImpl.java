@@ -26,9 +26,6 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
 	 */
 	@Override
 	public IPage<StudentVO> selectStudentPage(IPage<StudentVO> page, StudentVO student) {
-		QueryWrapper<Student> wrapper = new QueryWrapper<>();
-		wrapper.apply("is_deleted = 0");
-		wrapper.lambda().orderByDesc(Student::getCreateTime);
-		return page.setRecords(baseMapper.selectStudentPage(page, wrapper));
+		return page.setRecords(baseMapper.selectStudentPage(page, student));
 	}
 }

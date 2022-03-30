@@ -42,10 +42,10 @@ public class Student {
 	private String sex;
 
 	@ApiModelProperty(value = "创建时间")
-	private Date createTime;
+	private Long createTime;
 
 	@ApiModelProperty(value = "修改时间")
-	private Date updateTime;
+	private Long updateTime;
 
 	@ApiModelProperty(value = "是否删除")
 	private Object isDeleted;

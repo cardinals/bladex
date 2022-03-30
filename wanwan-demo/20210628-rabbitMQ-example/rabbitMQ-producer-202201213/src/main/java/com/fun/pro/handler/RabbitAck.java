@@ -1,4 +1,4 @@
-package org.springblade.mq.ack;
+package com.fun.pro.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.ReturnedMessage;

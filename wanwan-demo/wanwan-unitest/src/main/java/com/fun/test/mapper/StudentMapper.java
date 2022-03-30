@@ -25,5 +25,5 @@ public interface StudentMapper extends BaseMapper<Student> {
 	/**
 	 * 自定义分页
 	 */
-	List<StudentVO> selectStudentPage(IPage<StudentVO> page, @Param("ew") Wrapper<?> wrapper);
+	List<StudentVO> selectStudentPage(IPage<StudentVO> page, @Param("student") Student student);
 }
