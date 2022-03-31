@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.fun</groupId>
             <artifactId>wanwan-web-common</artifactId>

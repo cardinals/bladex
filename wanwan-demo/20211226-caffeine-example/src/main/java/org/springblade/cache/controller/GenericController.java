@@ -1,6 +1,6 @@
 package org.springblade.cache.controller;
 
-import com.fun.core.api.R;
+import com.fun.tool.api.R;
 import lombok.RequiredArgsConstructor;
 import org.springblade.cache.entity.UserInfo;
 import org.springblade.cache.service.CaffeineCacheServiceImpl;
