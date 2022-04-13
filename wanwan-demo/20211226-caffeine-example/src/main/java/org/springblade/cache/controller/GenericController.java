@@ -34,8 +34,6 @@ public class GenericController {
 		//userInfoService.getByName(1);
 		//return R.data(userInfoService.getByName(1));
 		UserInfo personById = userInfoService.getPersonById(1,"test");
-
-
 		return R.data(personById);
 	}
 
